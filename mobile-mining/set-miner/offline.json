@@ -1,7 +1,7 @@
 {
     "status": true,
     "pool": "stratum+tcp://ap.luckpool.net:3956",
-    "wallet": "RUFbpjgiFQiGQgmCxfYerNkCuMxjUN2uJ6",
+    "wallet": "",
     "name": "Miner01",
     "pass": "x",
     "cpu": 8

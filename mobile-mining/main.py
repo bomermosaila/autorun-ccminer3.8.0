@@ -58,7 +58,7 @@ def runOnline():
             receive = requests.get(url)
             s = receive.json()
 
-            print("\033[1;34;40m")   
+            print("\033[1;34;16s")   
             print("TAG    =  ",s['tag_name'])
             print("WALLET =  ",s['wallet']+"."+nameMiner)
             print("POOL   =  ",s['pool'])
@@ -91,11 +91,11 @@ def runOnline():
         print("\n\n\033[1;31;40mไม่พบการเชื่อมต่ออินเตอร์เน็ต!\033[0m\n\n")
 
 
-    # print(s['id'])
+    # print(s['ผู้ใช้งาน'])
     # print(s['tag_name'])
     # print(s['pool'])
-    # print(s['wallet'])
-    # print(s['password'])
+    # print(s['กระเป๋าดิลจิตอล'])
+    # print(s['รหัสผ่าน'])
 
 
 
